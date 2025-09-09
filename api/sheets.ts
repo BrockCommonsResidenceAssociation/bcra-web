@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { appendSheetData, getSheetData } from "../lib/google-sheets.js";
+import { appendSheetData, getSheetData } from "../src/lib/google-sheets.js";
 
 export default async function handler(
   req: VercelRequest,
