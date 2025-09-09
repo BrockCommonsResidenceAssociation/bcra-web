@@ -26,7 +26,6 @@ export default defineConfig(({ mode }) => {
               const apiPath = url.pathname.substring(5);
               const modulePath = path.join(
                 __dirname,
-                "src",
                 "api",
                 `${apiPath}.ts`
               );
