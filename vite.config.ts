@@ -24,7 +24,12 @@ export default defineConfig(({ mode }) => {
             if (req.url?.startsWith("/api/")) {
               const url = new URL(req.url, `http://${req.headers.host}`);
               const apiPath = url.pathname.substring(5);
-              const modulePath = path.join(__dirname, "api", `${apiPath}.ts`);
+              const modulePath = path.join(
+                __dirname,
+                "src",
+                "api",
+                `${apiPath}.ts`
+              );
 
               try {
                 const module = await server.ssrLoadModule(modulePath);

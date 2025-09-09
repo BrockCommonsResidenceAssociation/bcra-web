@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { sheets } from "../src/lib/google-sheets";
+import { sheets } from "../lib/google-sheets";
 
 const SPREADSHEET_ID = process.env.VITE_GOOGLE_SHEETS_SPREADSHEET_ID;
 
