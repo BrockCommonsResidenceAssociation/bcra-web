@@ -1,5 +1,7 @@
 {
   "functions": {
-    "src/api/**/*.ts": {}
+    "src/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
   }
 }
