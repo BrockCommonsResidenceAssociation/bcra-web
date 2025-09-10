@@ -271,6 +271,7 @@ const Events = () => {
                             setSelectedEvent(event);
                             setIsRSVPModalOpen(true);
                           }}
+                          disabled
                         >
                           <Check className="w-4 h-4" />
                           RSVP
