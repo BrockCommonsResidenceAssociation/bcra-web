@@ -63,8 +63,8 @@ const Home = () => {
                     Brock Commons
                   </span>
                 </h1>
-                <p className="text-xl text-primary-foreground/90 max-w-lg">
-                  Your home away from home. Connect with your community, participate in events, and make the most of your residence experience.
+                <p className="text-md text-primary-foreground/90 max-w-lg">
+                 Your home away from home. Connect with your community, participate in events, and make the most of your residence experience with the Brock Commons Residence Association.
                 </p>
               </div>
               
